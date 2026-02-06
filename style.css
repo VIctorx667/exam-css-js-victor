@@ -1,6 +1,6 @@
-#main-article {
+#main-tickets {
     margin: 50px;
-    background-color: blueviolet;
+    background-color: rgb(105, 113, 180);
     color: rgb(2, 1, 1);
     padding: 25px;
     border: 2px solid black;
@@ -12,13 +12,16 @@
     justify-content: space-between;
 }
 
-.article {
-
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+
 header {
-    background-color: darkcyan;
-    color: white;
+    background-color: rgb(96, 175, 96);
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +30,7 @@ header {
 
 nav ul {
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -35,14 +39,19 @@ li {
     margin: 35px
 }
 a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
- body {
+body {
     margin: 1;
  }
 
- .text-x1 {
+.text-x1 {
     font-size: 20px;
  }
+
+main{
+    display: flex;
+    justify-content: center;
+}
